@@ -1,0 +1,81 @@
+body {
+  background-color: #FFCC00;
+  padding: 25px;
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+h1, h2, p, ul, li {
+  font-family: 'Oswald', sans-serif ;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.active{
+  background-color: #0099FF;
+}
+
+.todo-input{
+  padding-bottom: 20px;
+  margin-bottom:5px;
+  text-align: center;
+  color: black;
+}
+
+.todo-input >h2{
+  padding:10px;
+}
+
+.Todo-app >Table{
+  text-align: unset;
+  margin: 10px auto;
+  padding: 0;
+}
+
+.Todo-app >tr {
+  margin-bottom: 10px;
+}
+
+.Todo-app >tr >td {
+  color: black;
+}
+.Todo-app >button {
+  margin: 20px;
+  cursor: pointer;
+}
+
+.table-dark{
+  color: unset;
+}
+
+.Todo-app >.todo-list{
+  text-align: unset;
+}
+button{
+  margin: 5px;
+}
